@@ -1,0 +1,69 @@
+
+.html {
+    height: 90vh;
+    position: relative;
+    
+    background-image: url(https://www.publicdomainpictures.net/pictures/90000/velka/colour-blur-background-1399324285Lk8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.img {
+    background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.main {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 16px;
+    
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    
+    
+    
+}
+
+.button {
+    color:#333;
+    background-image: url(https://www.publicdomainpictures.net/pictures/90000/velka/colour-blur-background-1399324285Lk8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    border-radius: 20px;
+    font-size: 100px;
+    padding: 5px;
+    border-color: #333;
+}
+
+
+.main1 {
+    max-width: 700px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  
+}
+
+
+

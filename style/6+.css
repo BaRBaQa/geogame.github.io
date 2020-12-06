@@ -1,0 +1,63 @@
+.game {
+    padding: 1em;
+}
+
+.html {
+    background-color: #333;
+    color: #333;
+}
+
+.body {
+    
+
+}
+
+.window {
+    border-radius: 22px;
+    border-color: #333;
+    width: auto;
+   
+}
+
+.button {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    font-size: 19px;
+    border-color: #333;
+    color: darkgrey;
+    background-color: #333;
+    padding: 1em;
+    width: 17em;
+    border-bottom-color: red;
+    border-bottom-style: revert;
+    border-right-color: red;
+    border-left-color: #333;
+    border-top-color: #333;
+}
+
+.buttonmenu {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    font-size: 19px;
+    border-color: #333;
+    color: darkgrey;
+    background-color: #333;
+    padding: 1em;
+    width: 17em;
+    border-bottom-color: greenyellow;
+    border-bottom-style: revert;
+    border-right-color: greenyellow;
+    border-left-color: #333;
+    border-top-color: #333;
+}
+
+.h1 {
+    color: darkgrey;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5%;
+}
