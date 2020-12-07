@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ka" class="html">
+<head>
+
+    
+
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGame</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="body" onload="startTime()">
+
+    <div id="txt" style="text-align: center;
+    font-size: 75px;
+    color: #333; "></div>
+    
+    <div class="main1">
+        <div class="main">
+            <h2 style="color: #333;" >აირჩიეთ ასაკი
+                <h5 style="color: #333;"> საჭიროა იმისთვის რომ დაცული იყოს თამაში მოცემული კონტენტი თქვენს წლოვანებისამებრ.</h5>
+            </h2>
+           
+        <button class="button" onclick="window.location.href='6+.html'">6+</button>
+        <button class="button" onclick="window.location.href='12+.html'">12+</button>
+        <button class="button" onclick="window.location.href='16+.html'">16+</button>
+        </div>
+
+    </div>
+    
+
+    
+
+</body>
+</html>
